@@ -1,64 +1,72 @@
----
-layout: archive
-title: "CV"
-permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
----
-
-{% include base_path %}
-
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**Ho Chi Minh City University of Technology (VNU-HCMUT)**  
+Bachelor in Control Engineering and Automation (Honor Program)  
+Aug 2021 – May 2025  
+- Honor Program - GPA: 3.5/4.0
+- 1 Publication (ICCIES 2025)
+- Scholarships:
+  1. Academic Encouragement Scholarships (VNU-HCMUT)
+  2. AmCham Scholarship
+  3. Talented Scholarship for Valedictorian-level cohort (2021 intake)
+  4. Faculty of Electrical & Electronics Engineering Scholarship
+- Leadership: Leader of Volunteer Club– Xung Kich Team (Department of Electrical & Electronics
+Engineering)
+- VNU-HCMUT is among the top engineering universities in Vietnam
+---
 
-Work experience
+Work Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**ARENA Lab** – Research Assistant  
+Feb 2026 – Present  
+- Research on social navigation and human behavior understanding  
+- Trajectory prediction & interaction-aware models  
+- Multi-modal learning (vision, pose, text)
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+**Puwell Cloud Tech Company** – AI Engineer  
+Jan 2025 – Present  
+- YOLO + Pose estimation deployment on edge devices  
+- Built full vision pipelines (infant monitoring, small object tracking)  
+- Model optimization & quantization (CPU + NPU systems)
+
+**Optima Robotics** – AI Engineer Intern  
+May 2024 – Aug 2024  
+- Computer vision systems (detection, face recognition)  
+- Edge deployment + MQTT integration  
+
+---
+
+Projects
+======
+
+**Anomaly Detection using DINOv2**  
+- Multi-level feature extraction  
+- Real-time on Jetson Nano  
+- Grade: 9.2/10  
+
+**Vietnamese Handwritten Recognition**  
+- 600GB dataset  
+- Transformer-based model  
+- 1 publication (ICCIES 2025)
+
+**Autonomous Driving (ROS2)**  
+- A* + DWA navigation  
+- Dynamic Bicycle Model  
+
+---
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
-Publications
+- **Languages:** Python, C/C++  
+- **Frameworks:** PyTorch  
+- **Libraries:** OpenCV, NumPy, Sklearn  
+- **Tools:** Matlab, Anaconda  
+- **Domains:** Computer Vision, Deep Learning, Embedded AI  
+
+---
+
+Certificates
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+- IELTS 7.0 (2025–2027)
