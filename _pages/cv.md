@@ -1,3 +1,12 @@
+---
+layout: archive
+title: "CV"
+permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
 Education
 ======
 **Ho Chi Minh City University of Technology (VNU-HCMUT)**  
@@ -7,12 +16,12 @@ Aug 2021 – May 2025
 - 1 Publication (ICCIES 2025)
 - Scholarships:
   1. Academic Encouragement Scholarships (VNU-HCMUT)
-  2. AmCham Scholarship
-  3. Talented Scholarship for Valedictorian-level cohort (2021 intake)
+  2. [AmCham Scholarship 2025](https://www.amchamvietnam.com/acs25/)
+  3. [Talented Scholarship for Valedictorian-level cohort (2021 intake)](https://dee.hcmut.edu.vn/news/66f93fe1aeec676a267c2702)
   4. Faculty of Electrical & Electronics Engineering Scholarship
 - Leadership: Leader of Volunteer Club– Xung Kich Team (Department of Electrical & Electronics
 Engineering)
-- VNU-HCMUT is among the top engineering universities in Vietnam
+- [VNU-HCMUT](https://hcmut.edu.vn/) is among the top engineering universities in Vietnam
 ---
 
 Work Experience
