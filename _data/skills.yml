@@ -1,0 +1,35 @@
+- group: Programming
+  items:
+    - Python
+    - C/C++
+    - C
+- group: AI Frameworks
+  items:
+    - PyTorch
+    - OpenCV
+    - ONNX
+    - YOLO
+    - AlphaPose
+    - DINOv2
+- group: Robotics and Simulation
+  items:
+    - ROS
+    - Unity
+    - Gazebo
+    - MATLAB
+    - Proteus
+- group: Research Areas
+  items:
+    - Computer Vision
+    - Deep Learning
+    - Machine Learning
+    - Multimodal Learning
+    - Embedded AI
+    - Human Pose Understanding
+- group: Deployment
+  items:
+    - Edge AI
+    - NPU Deployment
+    - Jetson Nano
+    - Quantization
+    - Android App Development

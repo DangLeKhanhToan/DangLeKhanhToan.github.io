@@ -1,0 +1,15 @@
+- id: hiking
+  title: Hiking and Trekking
+  category: Outdoors
+  image: /images/memories/hiking/main.jpg
+  summary: A place for trail photos, trekking notes, and routes worth remembering.
+- id: volunteer
+  title: Xung Kich Volunteer Days
+  category: Leadership
+  image: /images/memories/volunteer/main.jpg
+  summary: Community activities from Mid-Autumn Festival, Lunar New Year, Christmas, and student events.
+- id: campus
+  title: HCMUT Milestones
+  category: Academic Life
+  image: /images/memories/campus/main.jpg
+  summary: Scholarships, thesis moments, lab work, and university memories.

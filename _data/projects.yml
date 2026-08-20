@@ -1,0 +1,115 @@
+- id: sean-navigation
+  title: Socially-Aware Navigation in SEANv2.0
+  category: Research
+  status: Active
+  period: Feb 2026 - Present
+  organization: ARENA Lab
+  image: /images/projects/sean-navigation/main.jpg
+  video: /video/projects/sean-navigation/demo_1.mp4
+  summary: Learning-based models for trajectory prediction and interaction-aware robot navigation in dynamic human environments.
+  impact: Integrates visual, pose, and textual representations for robust scene understanding in ROS + Unity simulation.
+  tags:
+    - ROS
+    - Unity
+    - Multimodal Learning
+    - Human Pose
+    - Trajectory Prediction
+  links:
+    - label: Lab
+      url: https://linhdoan.io/#/arena-lab
+
+- id: iot-temporal-shift
+  title: IoT Intrusion Detection under Temporal Domain Shift
+  category: Research
+  status: Under Review
+  period: Jan 2025 - May 2025
+  organization: Research Project
+  image: /images/projects/iot-temporal-shift/main.jpg
+  video: /video/projects/iot-temporal-shift/demo_1.mp4
+  summary: ATA, a robust intrusion detection framework for evolving IoT network traffic distributions.
+  impact: Demonstrated stronger robustness under real-world temporal distribution changes.
+  tags:
+    - IoT Security
+    - Deep Learning
+    - Time Series
+    - Model Distillation
+  links:
+    - label: Paper
+      url: "#"
+
+- id: dinov2-anomaly
+  title: Anomaly Detection Based on DINOv2
+  category: Engineering
+  status: Thesis
+  period: Jan 2025 - May 2025
+  organization: Final Thesis, HCMUT
+  image: /images/projects/dinov2-anomaly/main.jpg
+  video: /video/projects/dinov2-anomaly/demo_1.mp4
+  summary: Multi-level feature extraction from frozen DINOv2 representations with a projection network for anomaly scoring.
+  impact: Optimized for real-time inference on Jetson Nano and received a final thesis grade of 9.2/10.
+  tags:
+    - DINOv2
+    - Vision Transformer
+    - Jetson Nano
+    - Edge AI
+    - PyTorch
+  links:
+    - label: GitHub
+      url: "#"
+
+- id: vietnamese-ocr
+  title: Vietnamese Handwritten Recognition
+  category: Research
+  status: Published
+  period: Jun 2024 - Jun 2025
+  organization: HCMUT AI & IoT Lab
+  image: /images/projects/vietnamese-ocr/main.jpg
+  video: /video/projects/vietnamese-ocr/demo_1.mp4
+  summary: Transformer-based handwritten text recognition pipeline for large-scale real-world Vietnamese handwriting data.
+  impact: Processed 600GB+ data and produced an ICCIES 2025 publication.
+  tags:
+    - Transformer
+    - OCR
+    - PyTorch
+    - CLAHE
+    - Sauvola Binarization
+  links:
+    - label: Publication
+      url: /publication/iccies-2025-transformer-ocr
+
+- id: edge-ai-monitoring
+  title: Edge AI Monitoring Pipelines
+  category: Engineering
+  status: Deployed
+  period: Jan 2025 - Jun 2026
+  organization: Puwell Cloud Tech Company
+  image: /images/projects/edge-ai-monitoring/main.jpg
+  video: /video/projects/edge-ai-monitoring/demo_1.mp4
+  summary: Real-time detection, pose estimation, tracking, and crib-monitoring pipelines for resource-constrained edge devices.
+  impact: Delivered production-ready computer vision systems with CPU + NPU optimization.
+  tags:
+    - YOLO
+    - AlphaPose
+    - ONNX
+    - OpenCV
+    - NPU Deployment
+  links:
+    - label: Company
+      url: https://www.puwell.com/Index/about
+
+- id: optima-robotics-edge
+  title: Robotic Vision and MQTT Integration
+  category: Engineering
+  status: Internship
+  period: May 2024 - Aug 2024
+  organization: Optima Robotics Joint Stock Company
+  image: /images/projects/optima-robotics-edge/main.jpg
+  video: /video/projects/optima-robotics-edge/demo_1.mp4
+  summary: Computer vision solutions for object detection, facial recognition, and real-time communication in robotic applications.
+  impact: Enabled low-latency communication between AI modules and robotic systems.
+  tags:
+    - Computer Vision
+    - Face Recognition
+    - MQTT
+    - Python
+    - OpenCV

@@ -1,0 +1,28 @@
+- year: "2021"
+  title: Started HCMUT Honor Program
+  type: Education
+  detail: Bachelor in Control Engineering and Automation, VNU-HCMUT.
+- year: "2021-2024"
+  title: Led Xung Kich Volunteer Club
+  type: Leadership
+  detail: Organized student volunteer activities for major community occasions.
+- year: "2024"
+  title: AI Engineer Intern at Optima Robotics
+  type: Engineering
+  detail: Built object detection, face recognition, and MQTT communication pipelines.
+- year: "2025"
+  title: AI Engineer at Puwell Cloud Tech
+  type: Engineering
+  detail: Deployed real-time vision and pose pipelines on CPU + NPU edge devices.
+- year: "2025"
+  title: Published OCR Research at ICCIES
+  type: Publication
+  detail: Transformer-based OCR for Vietnamese handwritten text recognition.
+- year: "2025"
+  title: Completed DINOv2 Thesis
+  type: Research
+  detail: Real-time anomaly detection on Jetson Nano, final grade 9.2/10.
+- year: "2026"
+  title: Remote Research Assistant at ARENA Lab
+  type: Research
+  detail: Social navigation, trajectory prediction, and multimodal scene understanding.

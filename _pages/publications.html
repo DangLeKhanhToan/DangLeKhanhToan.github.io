@@ -1,36 +1,42 @@
 ---
-layout: archive
+layout: dashboard
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
+<section class="page-hero page-hero--compact">
+  <p class="eyebrow">Publications</p>
+  <h1>Peer-reviewed work and papers in progress.</h1>
+  <p>Research outputs connected to OCR, computer vision, edge AI, and socially-aware robotic systems.</p>
+</section>
+
+<section class="publication-list">
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    <article class="publication-card">
+      <div>
+        <p class="eyebrow">{{ post.date | date: "%Y" }} - {{ post.category | default: "Publication" }}</p>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        {% if post.venue %}<p class="publication-card__venue">{{ post.venue }}</p>{% endif %}
+        {% if post.excerpt %}<p>{{ post.excerpt }}</p>{% endif %}
+      </div>
+      <div class="publication-card__actions">
+        <a href="{{ post.url }}">Details</a>
+        {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
+        {% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">BibTeX</a>{% endif %}
+      </div>
+    </article>
   {% endfor %}
-{% endif %}
-
-
-
+  <article class="publication-card publication-card--muted">
+    <div>
+      <p class="eyebrow">Under review - 2026</p>
+      <h2>IoT Intrusion Detection under Temporal Domain Shift</h2>
+      <p>ATA framework for robust intrusion detection under evolving network traffic distributions. Currently under review at Ad Hoc Networks.</p>
+    </div>
+    <div class="publication-card__actions">
+      <a href="/projects/#iot-temporal-shift">Project</a>
+    </div>
+  </article>
+</section>

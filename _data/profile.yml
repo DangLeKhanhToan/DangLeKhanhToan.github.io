@@ -1,0 +1,37 @@
+name: Dang Le Khanh Toan
+preferred_name: Levi
+headline: AI Engineer building deployable perception systems for socially-aware robots and edge devices.
+location: Ho Chi Minh City, Vietnam
+email: khanhtoanlevi@gmail.com
+website: https://danglekhanhtoan.github.io/
+github: DangLeKhanhToan
+summary: Research-oriented AI Engineer specializing in robot perception, social navigation, and multimodal human behavior understanding. Experienced in learning-based models for trajectory prediction, anomaly detection, OCR, and interaction-aware perception using visual, pose, and textual data.
+current:
+  - role: Remote Research Assistant
+    organization: ARENA Lab
+    period: Feb 2026 - Present
+    focus: Socially-aware navigation, trajectory prediction, and multimodal scene understanding.
+  - role: AI Engineer
+    organization: Puwell Cloud Tech Company
+    period: Jan 2025 - Jun 2026
+    focus: Real-time computer vision pipelines for CPU, NPU, and embedded edge systems.
+research_interests:
+  - Socially-aware robot navigation
+  - Trajectory prediction
+  - Multimodal human behavior understanding
+  - Efficient deep learning on edge devices
+  - Anomaly detection
+  - OCR and document intelligence
+stats:
+  - label: Publication
+    value: "1"
+    detail: ICCIES 2025, Springer CCIS
+  - label: Thesis Grade
+    value: "9.2/10"
+    detail: DINOv2 anomaly detection on Jetson Nano
+  - label: Dataset Scale
+    value: "600GB+"
+    detail: Vietnamese handwritten OCR data
+  - label: IELTS
+    value: "7.0"
+    detail: Valid Apr 2025 - Apr 2027

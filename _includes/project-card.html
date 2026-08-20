@@ -1,0 +1,26 @@
+{% assign project = include.project %}
+<article class="project-card" data-category="{{ project.category | downcase }}" data-tags="{{ project.tags | join: ' ' | downcase }}">
+  <div class="project-card__media media-frame">
+    <div class="media-placeholder">
+      <span>{{ project.category }}</span>
+      <strong>{{ project.title }}</strong>
+    </div>
+    {% if project.image %}
+      <img src="{{ project.image }}" alt="{{ project.title }} project preview" loading="lazy">
+    {% endif %}
+  </div>
+  <div class="project-card__body">
+    <div class="project-card__meta">
+      <span>{{ project.status }}</span>
+      <span>{{ project.period }}</span>
+    </div>
+    <h2>{{ project.title }}</h2>
+    <p>{{ project.summary }}</p>
+    <div class="project-card__tags">
+      {% for tag in project.tags limit:4 %}
+        <span>{{ tag }}</span>
+      {% endfor %}
+    </div>
+    <a href="/projects/#{{ project.id }}" aria-label="Read more about {{ project.title }}">Open project</a>
+  </div>
+</article>
